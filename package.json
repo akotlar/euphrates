@@ -1,0 +1,34 @@
+{
+  "name": "euphrates",
+  "version": "0.1.0",
+  "description": "A river in Asia",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.4.9",
+    "next": "^8.0.3",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akotlar/euphrates.git"
+  },
+  "author": "Alex Kotlar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akotlar/euphrates/issues"
+  },
+  "homepage": "https://github.com/akotlar/euphrates#readme"
+}
