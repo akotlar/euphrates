@@ -1,6 +1,14 @@
-import '../styles/main.scss'
+import "../styles/main.scss";
+import Header from "../components/Header/Header";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <div id="site">
+      <Header />
+      <div id="body">
+        <Component {...pageProps} />
+      </div>
+    </div>
+  );
 }
